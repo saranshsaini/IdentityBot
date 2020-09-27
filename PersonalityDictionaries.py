@@ -1,3 +1,7 @@
+
+#What the bot should say based off of the highest facets of the Redditor.
+#These messages are tweaked versions of the ones on the IBM Docs taken from
+# https://cloud.ibm.com/docs/personality-insights?topic=personality-insights-agreeableness
 high_personality_dictionary = {
     "facet_altruism": "feel fulfilled when helping others and will go out of your way to do so",
     "facet_cooperation": "are easy to please and try to avoid confrontation",
@@ -32,6 +36,9 @@ high_personality_dictionary = {
 
 }
 
+#What the bot should say based off of the lowest facets of the Redditor.
+#These messages are tweaked versions of the ones on the IBM Docs taken from
+# https://cloud.ibm.com/docs/personality-insights?topic=personality-insights-agreeableness
 low_personality_dictionary = {
     "facet_altruism": "are more concerned with taking care of yourself than taking time for others",
     "facet_cooperation": "do not shy away from contradicting others",
@@ -65,6 +72,8 @@ low_personality_dictionary = {
     "facet_liberalism": "prefer following with tradition to maintain a sense of stability"
 }
 
+#What the bot should say based off of the consumption preferences of the Redditor.
+#https://cloud.ibm.com/docs/personality-insights?topic=personality-insights-preferences
 consumption_dictionary = {
 
     "consumption_preferences_movie_romance": "romance movies",
